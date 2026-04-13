@@ -101,7 +101,7 @@ export default function ProjectsPage() {
                       <span style={{ fontFamily: "var(--font-sans)", fontSize: "11px", color: "var(--text-secondary)" }}>{project.role} · {project.year}</span>
                       {project.url !== "#" && (
                         <Link href={project.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
-                          <span style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "var(--accent)" }}>View site ↗</span>
+                          <span style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "var(--accent)" }}>View site </span>
                         </Link>
                       )}
                     </div>
@@ -201,7 +201,7 @@ export default function ProjectsPage() {
                           <Link href={active.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
                             <motion.span whileHover={{ x: 3 }} data-hover
                               style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "var(--accent)", letterSpacing: "0.1em", cursor: "none" }}>
-                              View live site ↗
+                              View live site 
                             </motion.span>
                           </Link>
                         )}
