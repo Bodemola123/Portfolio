@@ -64,7 +64,7 @@ export default function AboutPage() {
                 Full-Stack Frontend Developer with 3+ years of hands-on experience building production-grade web applications.
               </p>
               <p style={{ fontFamily: "var(--font-sans)", fontSize: "14px", fontWeight: 300, lineHeight: 1.8, color: "var(--text-secondary)", marginBottom: "16px" }}>
-                Currently contributing to two live products — Edubanc (Nigeria) and Prodigal AI (Australia) — with demonstrated ability to ship responsive, high-performance UIs and integrate REST APIs end-to-end.
+                Currently contributing to two live products: Edubanc (Nigeria) and Prodigal AI (Australia), with demonstrated ability to ship responsive, high-performance UIs and integrate REST APIs end-to-end.
               </p>
               <p style={{ fontFamily: "var(--font-sans)", fontSize: "14px", fontWeight: 300, lineHeight: 1.8, color: "var(--text-secondary)" }}>
                 Holds a First Class B.Eng in Mechanical Engineering (FUTA), bringing structured analytical thinking to every engineering challenge.
@@ -79,7 +79,7 @@ export default function AboutPage() {
                 <Link href="https://github.com/Bodemola123" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
                   <motion.button whileHover={{ scale: 1.02 }} data-hover
                     style={{ background: "transparent", border: "0.5px solid var(--border-hover)", borderRadius: "20px", padding: "10px 24px", color: "var(--text-secondary)", fontSize: "11px", letterSpacing: "0.12em", fontFamily: "var(--font-sans)", cursor: "none" }}>
-                    GitHub ↗
+                    GitHub
                   </motion.button>
                 </Link>
               </div>
@@ -178,7 +178,7 @@ export default function AboutPage() {
                 onMouseLeave={e => (e.currentTarget as HTMLDivElement).style.borderColor = "var(--border-hover)"}
               >
                 <div style={{ fontFamily: "var(--font-sans)", fontSize: "10px", color: "var(--text-secondary)", letterSpacing: "0.18em", textTransform: "uppercase", marginBottom: "5px" }}>Email</div>
-                <div style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "var(--accent)" }}>emolabenjamin123@gmail.com ↗</div>
+                <div style={{ fontFamily: "var(--font-sans)", fontSize: "12px", color: "var(--accent)" }}>emolabenjamin123@gmail.com </div>
               </motion.div>
             </Link>
           </motion.div>
