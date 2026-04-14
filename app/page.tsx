@@ -136,7 +136,7 @@ export default function Home() {
   const cx = dims.w / 2, cy = dims.h / 2;
 
   return (
-    <div style={{ width: "100vw", minHeight: "100vh", background: "var(--bg)", overflow: isMobile ? "auto" : "hidden", position: "relative" }}>
+    <div style={{ width: "100vw", height: "100dvh", background: "var(--bg)", overflow: isMobile ? "auto" : "hidden", position: "relative" }}>
 
       {/* Top bar */}
       <div style={{ position: isMobile ? "relative" : "absolute", top: 0, left: 0, right: 0, padding: "20px 24px", display: "flex", justifyContent: "space-between", alignItems: "center", zIndex: 20 }}>
