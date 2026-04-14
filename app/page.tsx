@@ -191,9 +191,9 @@ export default function Home() {
             </div>
             <Link href="https://github.com/Bodemola123" target="_blank" rel="noopener noreferrer"
               style={{ fontSize: "10px", letterSpacing: "0.18em", color: "var(--text-secondary)", textTransform: "uppercase", fontFamily: "var(--font-sans)", textDecoration: "none" }}>
-              github ↗
+              github 
             </Link>
-            <span style={{ fontSize: "10px", letterSpacing: "0.18em", color: "var(--text-muted)", textTransform: "uppercase", fontFamily: "var(--font-sans)" }}>Lagos, Nigeria</span>
+            <span style={{ fontSize: "10px", letterSpacing: "0.18em", color: "#fafafa", textTransform: "uppercase", fontFamily: "var(--font-sans)" }}>Lagos, Nigeria</span>
           </motion.div>
         </div>
 
@@ -202,7 +202,7 @@ export default function Home() {
         <>
           {/* Location tag */}
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.5 }}
-            style={{ position: "absolute", top: "62px", right: "28px", fontFamily: "var(--font-serif)", fontStyle: "italic", fontSize: "11px", color: "var(--text-muted)", letterSpacing: "0.08em", writingMode: "vertical-rl", zIndex: 10 }}>
+            style={{ position: "absolute", top: "62px", right: "28px", fontFamily: "var(--font-serif)", fontStyle: "italic", fontSize: "11px", color: "#fafafa)", letterSpacing: "0.08em", writingMode: "vertical-rl", zIndex: 10 }}>
             Lagos, Nigeria
           </motion.div>
 
