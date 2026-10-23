@@ -85,31 +85,6 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "voyex",
-    name: "Voyex",
-    kind: "AI · search and discovery",
-    summary: "An AI search platform where people ask for anything and get answers, product picks and a workspace to keep them.",
-    context:
-      "Voyex, built at Prodigal AI for a global audience, combines a chat-style AI search with a product marketplace and a personal workspace. The team was distributed across time zones and worked mostly asynchronously.",
-    built: [
-      "Primary frontend contributor, with more than 300 commits, about three quarters of the codebase history.",
-      "The AI chat and search interface: message rendering, input, history, product recommendation cards, and sharing, renaming and deleting conversations.",
-      "Sign-up and onboarding for people and organisations: Google sign-in, email OTP, password reset and profile upload.",
-      "The marketplace, workspace, templates, analytics and settings pages, and the Three.js landing site (about 200 commits).",
-    ],
-    role: "Frontend developer",
-    org: "Prodigal AI",
-    period: "2024 – 2026",
-    stack: ["Next.js", "Redux Toolkit", "Tailwind CSS", "Radix UI", "Three.js", "Google Generative AI"],
-    url: "https://voyex-landing.vercel.app",
-    color: "#c08cf8",
-    cover: "/work/voyex/cover",
-    shots: [
-      desktop("voyex", "home.jpg", "Voyex landing page"),
-      phone("voyex", "home-phone.jpg", "Voyex landing page on a phone"),
-    ],
-  },
-  {
     slug: "learn",
     name: "Edubanc Learn",
     kind: "EdTech · exam practice",
@@ -177,6 +152,31 @@ export const projects: Project[] = [
     cover: "/work/plearnty/cover",
     shots: [
       desktop("plearnty", "artwork.jpg", "Hero artwork from the Plearnty landing page: a student holding exam papers"),
+    ],
+  },
+    {
+    slug: "voyex",
+    name: "Voyex",
+    kind: "AI · search and discovery",
+    summary: "An AI search platform where people ask for anything and get answers, product picks and a workspace to keep them.",
+    context:
+      "Voyex, built at Prodigal AI for a global audience, combines a chat-style AI search with a product marketplace and a personal workspace. The team was distributed across time zones and worked mostly asynchronously.",
+    built: [
+      "Primary frontend contributor, with more than 300 commits, about three quarters of the codebase history.",
+      "The AI chat and search interface: message rendering, input, history, product recommendation cards, and sharing, renaming and deleting conversations.",
+      "Sign-up and onboarding for people and organisations: Google sign-in, email OTP, password reset and profile upload.",
+      "The marketplace, workspace, templates, analytics and settings pages, and the Three.js landing site (about 200 commits).",
+    ],
+    role: "Frontend developer",
+    org: "Prodigal AI",
+    period: "2024 – 2026",
+    stack: ["Next.js", "Redux Toolkit", "Tailwind CSS", "Radix UI", "Three.js", "Google Generative AI"],
+    url: "https://voyex-landing.vercel.app",
+    color: "#c08cf8",
+    cover: "/work/voyex/cover",
+    shots: [
+      desktop("voyex", "home.jpg", "Voyex landing page"),
+      phone("voyex", "home-phone.jpg", "Voyex landing page on a phone"),
     ],
   },
   {
