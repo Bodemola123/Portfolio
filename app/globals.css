@@ -170,9 +170,7 @@ html { scrollbar-color: var(--line-strong) var(--bg); }
 .site-header {
   position: sticky; top: 0; z-index: 50;
   height: var(--header-h);
-  background: rgb(12 11 9 / 0.95);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  background: var(--bg);
   border-bottom: 1px solid var(--line);
 }
 .site-header .wrap { height: 100%; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
@@ -278,7 +276,7 @@ html { scrollbar-color: var(--line-strong) var(--bg); }
   overflow: hidden;
   border: 1px solid var(--line-strong);
   background: var(--surface);
-  transition: transform 700ms var(--ease-out), opacity 500ms ease;
+  transition: transform 700ms var(--ease-out), opacity 500ms ease, filter 500ms ease;
   will-change: transform;
 }
 .css-card img { width: 100%; height: 100%; object-fit: cover; object-position: top; }

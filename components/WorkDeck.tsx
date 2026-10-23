@@ -199,14 +199,17 @@ function CssStage({ active }: { active: number }) {
     <div className="css-stage">
       <div className="css-stage-inner">
         {projects.map((p, i) => {
-          const d = i - active;
+          // The intro shows the stack with the first project in front.
+          const d = i - Math.max(active, 0);
           const passed = d < 0;
           const transform = passed
             ? "translate(0, -40%) scale(1.04)"
             : `translate(${d * 3}%, ${-d * 4}%) scale(${1 - d * 0.05})`;
-          const opacity = passed ? 0 : Math.max(0, 1 - d * 0.16);
+          // Rear cards dim instead of turning transparent, so nothing shows through the front card.
+          const opacity = passed || d > 4 ? 0 : 1;
+          const filter = d > 0 ? `brightness(${Math.max(0.25, 1 - d * 0.18)})` : undefined;
           return (
-            <div key={p.slug} className="css-card" style={{ transform, opacity, zIndex: projects.length - Math.abs(d) }}>
+            <div key={p.slug} className="css-card" style={{ transform, opacity, filter, zIndex: projects.length - Math.abs(d) }}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={`${p.cover}-1024.jpg`}
